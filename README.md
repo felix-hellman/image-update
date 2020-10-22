@@ -4,7 +4,7 @@ Drone plugin to update image tag in deployment yaml files for kubernetes.
 Primarily to be used in conjuction with argo.
 
 ## Example usage 
-Update build image from previous version to current version based on commit hash (8 characters)
+Update image from previous version to current version based on commit hash (8 characters)
 
 ```yaml
 kind: pipeline

@@ -1,5 +1,5 @@
 FROM python:alpine3.7
-COPY . /app
-WORKDIR /app
+COPY . /drone
+WORKDIR /drone
 RUN pip install -r requirements.txt
 
